@@ -1,0 +1,45 @@
+section{
+	button, .btn, form .gform_footer .btn {
+		width: auto;
+		height: 40px;
+		border-radius: 500px;
+		background-color: #ffc20e;
+		color: #333333;	
+		font-family: "PT Sans";	
+		font-size: 16px;	
+		font-weight: bold;	
+		line-height: 16px;
+		&:after{
+			content: url('../images/arrow-right.png');
+			margin:0px 0px 0px 10px;
+			text-decoration:none;
+			
+		}
+		@media (max-width: $screen-sm-max) {
+			font-size: 16px;
+		}
+		&:hover {
+			color: #fff;
+			border-color: $headings-color;
+			background-color: $headings-color;
+			&:after{
+				filter: brightness(100);
+			}
+		}
+	}
+}
+
+a.btn-sm {
+	padding: 10px 20px;
+	font-size: 16px;
+	border: 2px solid $headings-color;
+}
+a.btn-white {
+	color: #fff;
+	border-color: #fff;
+	&:hover {
+		color: $headings-color;
+		border-color: $brand-primary;
+		background-color: $brand-primary;
+	}
+}

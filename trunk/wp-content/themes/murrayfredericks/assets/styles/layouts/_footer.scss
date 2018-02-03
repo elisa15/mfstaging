@@ -1,0 +1,151 @@
+.content-info {
+	.buckets {
+		color: #ccc;
+		background: $gray-dark;
+		font-size: 16px;
+		padding: 50px 0;
+		.container {
+			padding: 0;
+			position: relative;
+			@media (max-width: $screen-md-max) {
+				padding-bottom: 20px;
+			}
+			.copyright{
+					text-align: left;
+				@media (max-width: $screen-xs-max){
+						text-align: center;
+						margin-bottom: 40px;
+				}
+			}
+		}
+		.menu-services
+		{
+			list-style: none;
+			padding: 0px;
+			font-size: 14px;
+		}
+		aside {
+			float: left;
+			width: 17%;
+			padding: 0 15px;
+			box-sizing: border-box;
+			@media (max-width: $screen-lg-max) {
+				width: 18.7%;
+			}
+			@media (max-width: $screen-md-max) {
+				width: 25%;
+			}
+			@media (max-width: $screen-sm-max) {
+				width: 50%;
+				margin-bottom: 30px;
+			}
+			@media (max-width: $screen-xs-max) {
+				float: none;
+				width: auto;
+			}
+			h3 {
+				color: #fff;
+				font-size: 20px;
+				font-weight: 700;
+				margin: 0 0 25px 0;
+				span {
+					padding-bottom: 5px;
+					border-bottom: 1px solid #666;
+				}
+			}
+			a {
+				color: #fff;
+				&:hover, &:active, &:focus {
+					color: $brand-primary;
+					text-decoration: none;
+				}
+			}
+			ul {
+				line-height: 1.5em;
+				@extend .list-unstyled;
+			}
+			dl {
+				margin-bottom: 0;
+				dt {
+					color: #fff;
+					width: 34px;
+					text-align: left;
+					float: left;
+				}
+				dd {
+					margin-left: 34px;
+				}
+			}
+			p {
+				margin-bottom: 15px;
+			}
+			br {
+				@media (max-width: $screen-lg-max) {
+					display: none;
+				}
+				@media (max-width: $screen-sm-max) {
+					display: block;
+				}
+				@media (max-width: $screen-xs-max) {
+					display: none;
+				}
+			}
+		}
+		.logo {
+			width: 32%;
+			@media (max-width: $screen-lg-max) {
+				width: 25%;
+			}
+			@media (max-width: $screen-md-max) {
+				width: 100%;
+				position: absolute;
+				bottom: -10px;
+			}
+			@media (max-width: $screen-sm-max) {
+				bottom: -40px;
+			}
+			img {
+				margin-top: 110px;
+				@media (max-width: $screen-md-max) {
+					margin-top: 0;
+				}
+			}
+		}
+		.hq1 { 
+			@media (max-width: $screen-sm-max) {
+				clear: both;
+			}
+		}
+		.hq2 {
+			margin-top: 47px;
+		}
+		.services {
+			@media (max-width: $screen-sm-max) {
+				clear: both;
+			}			
+		}
+		.social {
+			@media (max-width: $screen-xs-max) {
+				text-align: center;
+			}
+			h3 {
+				font-size: 28px;
+				font-weight: normal;
+				@media (max-width: $screen-xs-max) {
+					font-size: 24px;
+				}
+				a {
+					color: #ccc;
+					margin-left: 10px;
+					display: inline-block;
+					&:hover {
+						color: $brand-primary;
+					}
+					&:first-child {
+						margin-left: 0;
+					}
+				}
+			}
+		}
+	}
+}

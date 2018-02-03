@@ -1,0 +1,2 @@
+[02-Feb-2018 06:49:24 UTC] PHP Fatal error:  Call to undefined function gravity_form_enqueue_scripts() in /home/murrayfr/public_html/staging/wp-content/themes/murrayfredericks/templates/head.php on line 12
+[02-Feb-2018 06:52:06 UTC] PHP Fatal error:  Call to undefined function gravity_form_enqueue_scripts() in /home/murrayfr/public_html/staging/wp-content/themes/murrayfredericks/templates/head.php on line 12

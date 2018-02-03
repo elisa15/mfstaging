@@ -1,0 +1,13 @@
+[01-Mar-2016 08:40:21 Europe/Helsinki] PHP Fatal error:  Call to undefined function locate_template() in /home/agency/public_html/wp-content/themes/follow/functions.php on line 21
+[01-Mar-2016 08:40:33 Europe/Helsinki] PHP Fatal error:  Call to undefined function get_template_part() in /home/agency/public_html/wp-content/themes/follow/404.php on line 1
+[01-Mar-2016 08:40:34 Europe/Helsinki] PHP Fatal error:  Call to undefined function get_template_part() in /home/agency/public_html/wp-content/themes/follow/404.php on line 1
+[13-Mar-2016 03:43:31 Europe/Helsinki] PHP Fatal error:  Call to undefined function locate_template() in /home/agency/public_html/wp-content/themes/follow/functions.php on line 21
+[13-Mar-2016 03:43:31 Europe/Helsinki] PHP Fatal error:  Call to undefined function get_template_part() in /home/agency/public_html/wp-content/themes/follow/404.php on line 1
+[13-Mar-2016 09:29:58 Europe/Helsinki] PHP Fatal error:  Call to undefined function locate_template() in /home/agency/public_html/wp-content/themes/follow/functions.php on line 21
+[13-Mar-2016 09:29:59 Europe/Helsinki] PHP Fatal error:  Call to undefined function get_template_part() in /home/agency/public_html/wp-content/themes/follow/404.php on line 1
+[06-Jul-2016 04:53:43 Europe/Helsinki] PHP Fatal error:  Call to undefined function get_template_part() in /home/agency/public_html/wp-content/themes/follow/404.php on line 1
+[06-Jul-2016 09:14:19 Europe/Helsinki] PHP Fatal error:  Call to undefined function get_template_part() in /home/agency/public_html/wp-content/themes/follow/404.php on line 1
+[08-Jul-2016 02:06:21 Europe/Helsinki] PHP Fatal error:  Call to undefined function locate_template() in /home/agency/public_html/wp-content/themes/follow/functions.php on line 21
+[26-Jul-2016 14:11:05 Europe/Helsinki] PHP Fatal error:  Call to undefined function get_template_part() in /home/agency/public_html/wp-content/themes/follow/404.php on line 1
+[03-Aug-2016 20:52:43 Europe/Helsinki] PHP Fatal error:  Call to undefined function locate_template() in /home/agency/public_html/wp-content/themes/follow/functions.php on line 21
+[07-Aug-2016 20:28:43 Europe/Helsinki] PHP Fatal error:  Call to undefined function get_template_part() in /home/agency/public_html/wp-content/themes/follow/404.php on line 1

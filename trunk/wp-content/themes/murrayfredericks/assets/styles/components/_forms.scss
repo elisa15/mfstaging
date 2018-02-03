@@ -1,0 +1,92 @@
+// Search form
+.search-form {
+  @extend .form-inline;
+}
+.search-form label {
+  font-weight: normal;
+  @extend .form-group;
+}
+.search-form .search-field {
+  @extend .form-control;
+}
+.search-form .search-submit {
+  @extend .btn;
+  @extend .btn-default;
+}
+
+form {
+	font-size: 16px;
+	margin: 30px 0;
+	.gclear {
+		clear: both;
+	}
+	.gleft {
+		float: left;
+	}
+	.gright {
+		float: right;
+	}
+	.ghalf {
+		width: 48%;
+	}
+	.gform_body {
+		.gform_fields {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			.gfield {
+				margin-bottom: 40px;
+				.gfield_label {
+					font-weight: 400;
+					color: #666666;
+					font-family: "PT Sans";
+					font-size: 16px;
+					line-height: 30px;
+				}
+				.ginput_container {
+					.form-control {
+						box-shadow: none;
+						border-radius: 0;
+						border: 0;
+						padding-left: 0;
+						padding-right: 0;
+						border-bottom: 1px solid $headings-color;
+						background-color: transparent;
+						color: #333333;	font-family: "PT Sans";	font-size: 22px;	line-height: 32px;
+					}
+					textarea {
+						height: 100px;
+					}
+				}
+				.help-block {
+					margin-top: 10px;
+					padding-top: 10px;
+					border-top: 1px solid $headings-color;
+				}
+				.validation_message {
+					border: 0;
+					padding-top: 0;
+					font-size: 14px;
+				}
+			}
+			.has-error {
+				.ginput_container {
+					.form-control {
+						border-color: #a94442;
+					}
+				}
+			}
+		}
+	}
+	.gform_footer {
+		text-align: center;
+		padding-top: 30px;
+		.btn {
+			padding-right: 60px;
+			padding-left: 60px;
+		}
+		p, br {
+			display: none;
+		}
+	}
+}

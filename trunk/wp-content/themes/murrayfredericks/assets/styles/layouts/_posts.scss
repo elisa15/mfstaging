@@ -1,0 +1,257 @@
+.blog, .archive {
+	#body {
+		z-index: 3;
+		position: relative;
+		&:before {
+			content: '';
+			display: block;
+			height: 19px;
+			width: 100%;
+			top: -19px;
+			left: 0;
+			position: absolute;
+			background: url('../svg/white-bg.svg') 50% 0 no-repeat;
+			background-size: 100% 100%;
+		}
+		.main-content {
+			padding-top: 50px;
+			.page-title {
+				margin-top: 0;
+				text-align: center;
+				&:after {
+					display: none;
+				}
+			}
+		}
+		.posts-navigation {
+			display: none;
+		}
+	}
+}
+.single-post {
+	#top {
+		&:before {
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			z-index: 2;
+			content: '';
+			display: block;
+			background: rgba(0,0,0,.8);
+		}
+		.container {
+			max-width: 720px;
+			.wrap {
+				h1, h2, h3 {
+					display: block;
+					margin: 30px 0;
+					line-height: 1.2em;
+					font-size: 50px;
+					text-transform: none;
+					span {
+						border: 0;
+						padding: 0;
+					}
+				}
+				.subtitle {
+					font-size: 22px;
+					font-weight: bold;
+					text-transform: uppercase;
+					a {
+						color: #fff;
+						padding-bottom: 2px;
+						border-bottom: 2px solid $brand-primary;
+						&:hover {
+							color: $brand-primary;
+							text-decoration: none;
+						}
+					}
+				}
+				.byline {
+					font-size: 18px;
+					.sep {
+						padding: 0 10px;
+					}
+				}
+			}
+		}
+	}
+	#banner {
+		.navbar-nav {
+			.current_page_parent {
+				a {
+					font-weight: 700;
+					&:after {
+						width: 50px;
+					}
+				}
+			}
+		}
+	}
+	#body {
+		z-index: 3;
+		position: relative;
+		&:before {
+			content: '';
+			display: block;
+			height: 19px;
+			width: 100%;
+			top: -19px;
+			left: 0;
+			position: absolute;
+			background: url('../svg/white-bg.svg') 50% 0 no-repeat;
+			background-size: 100% 100%;
+		}
+		.main {
+			article {
+				h2 {
+					font-size: 36px;
+					&:after {
+						display: none;
+					}
+				}
+				h3 {
+					font-size: 26px;
+				}
+				.meta {
+					@media (max-width: $screen-sm-max) {
+						margin-top: 100px;
+					}
+					time {
+						padding: 10px;
+						display: block;
+						color: #fff;
+						width: 84px;
+						text-align: center;
+						background-color: #666;
+						line-height: 1.6em;
+						margin-bottom: 20px;
+						span {
+							display: block;
+						}
+						.day {
+							font-size: 30px;
+						}
+					}
+					.author {
+						img {
+							display: block;
+							width: 156px;
+							height: 156px;
+							margin: 10px 0;
+							border-radius: 50%;
+						}
+						strong {
+							font-size: 22px;
+						}
+					}
+					.share {
+						> span {
+							width: 44px;
+							height: 44px;
+							line-height: 44px;
+							margin-left: 5px;
+							color: #fff;
+							background-color: #333;
+							text-align: center;
+							&:first-child {
+								margin-left: 0;
+							}
+							&:hover {
+								opacity: .7;
+							}
+						}
+						.st_facebook_custom {
+							background-color: #3a589c;
+						}
+						.st_twitter_custom {
+							background-color: #32a8e2;
+						}
+						.st_googleplus_custom {
+							background-color: #d34730;
+						}
+						.st_linkedin_custom {
+							background-color: #007eb3;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.blog-list {
+	article {
+		margin-bottom: 30px;
+		margin-top: 30px;
+		.featured {
+			max-width: 500px;
+			margin: 0 auto;
+			a {
+				display: block;
+				height: 400px;
+				position: relative;
+				&:after {
+					content: '';
+					display: block;
+					width: 100%;
+					height: 100%;
+					top: 0;
+					left: 0;
+					opacity: 0;
+					background-color: #111;
+					position: absolute;
+					transition: all ease-in-out .2s;
+				}
+				&:hover {
+					&:after {
+						opacity: .6;
+					}
+				}
+				img {
+					display: none;
+				}
+			}
+		}
+		.meta-categories {
+			margin: 20px 0;
+			a {
+				color: #333;
+				padding-bottom: 3px;
+				border-bottom: 2px solid $brand-primary;
+				&:hover {
+					text-decoration: none;
+					color: $brand-primary;
+				}
+			}
+		}
+		.entry-title {
+			font-size: 42px;
+			margin: 15px 0;
+			&:after {
+				display: none;
+			}
+			a {
+				color: #333;
+				&:hover {
+					color: $brand-primary;
+					text-decoration: none;
+				}
+			}
+		}
+		.byline {
+			color: #666;
+			font-size: 14px;
+			margin-bottom: 15px;
+			span, time {
+				color: #333;
+				font-size: 18px;
+				font-weight: bold;
+			}
+			span {
+				padding-right: 20px;
+			}
+		}
+	}
+}
